@@ -25,7 +25,7 @@ export default class Home extends Component {
                 <Container>
 
                   <section className="my-2" style={{ marginTop: '50px', width: '900px'}}>
-                  <h2 className="h1-responsive font-weight-bold text-center my-5">Welcome To Food Court..!!!</h2><br/><br/>
+                  <h2 className="h1-responsive font-weight-bold text-center my-5">Welcome To Food Court</h2><br/><br/>
 
                   <p className="lead black-text w-responsive text-center mx-auto mb-5">Manage your stocks and make your orders efficiently financial management. </p>
 <br/><br/><br/>
