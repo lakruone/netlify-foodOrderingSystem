@@ -1,0 +1,20 @@
+body, html {
+    height: 100%;
+    background-color: rgb(153, 221, 243);
+  }
+  .bg {
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ng{
+    background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20(50).jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+

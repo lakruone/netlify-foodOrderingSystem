@@ -1,0 +1,30 @@
+/*.App{
+  width: 500px;
+  margin:auto;
+  height: 100%;
+  margin-bottom: 3%;
+  padding: 7px;
+  background-color: rgba(120, 187, 101, 0.3);
+  color: rgb(8, 41, 8);
+  visibility:.5px;
+  
+}
+*/
+h1{
+  color: rgb(188, 233, 194);
+  text-align: center;
+  background: rgb(28, 90, 37);
+
+
+}
+
+.submit{
+  text-align: center;
+}
+
+
+
+.A{
+  color:black;
+}
+
