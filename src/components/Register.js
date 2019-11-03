@@ -121,7 +121,7 @@ class Companyregister extends Component{
         }
         console.log(user);
         //company register - backend admin.js
-        fetch('http://localhost:5000/user/register', {
+        fetch('https://git.heroku.com/shielded-mountain-60408.git/user/register', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

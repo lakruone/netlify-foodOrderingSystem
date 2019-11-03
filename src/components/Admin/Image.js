@@ -49,7 +49,7 @@ class Image extends Component {
           }
 
           const token= localStorage.getItem('token');
-          fetch('http://localhost:5000/admin/changeImage/'  + this.props.match.params.id ,{
+          fetch('https://git.heroku.com/shielded-mountain-60408.git/admin/changeImage/'  + this.props.match.params.id ,{
               method: "POST",
               headers: {
                   "Content-Type": "application/json",

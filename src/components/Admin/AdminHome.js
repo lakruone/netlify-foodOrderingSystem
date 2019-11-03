@@ -46,7 +46,7 @@ export default class AdminHome extends Component {
         }
         console.log(user);
         //company register - backend admin.js
-        fetch('http://localhost:5000/admin/addCatagory', {
+        fetch('https://git.heroku.com/shielded-mountain-60408.git/admin/addCatagory', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -81,7 +81,7 @@ export default class AdminHome extends Component {
 
     componentDidMount(){
         const token= localStorage.getItem('token');
-        fetch('http://localhost:5000/admin/catagory'  ,{
+        fetch('https://git.heroku.com/shielded-mountain-60408.git/admin/catagory'  ,{
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

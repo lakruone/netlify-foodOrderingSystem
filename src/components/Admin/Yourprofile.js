@@ -23,7 +23,7 @@ export default class Yourprofile extends Component {
      //company dropdown list
     componentDidMount(){
         const token= localStorage.getItem('token');
-        fetch('http://localhost:5000/admin/profile' ,{
+        fetch('https://git.heroku.com/shielded-mountain-60408.git/admin/profile' ,{
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
