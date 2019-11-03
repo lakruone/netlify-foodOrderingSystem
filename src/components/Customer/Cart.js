@@ -19,7 +19,7 @@ class NewProject extends Component{
 
     componentDidMount(){
         const token= localStorage.getItem('token');
-        fetch('http://localhost:5000/user/viewCart'  ,{
+        fetch('https://shielded-mountain-60408.herokuapp.com/user/viewCart'  ,{
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -54,7 +54,7 @@ class NewProject extends Component{
 
             }
                     const token= localStorage.getItem('token');
-                    fetch('http://localhost:5000/user/deleteCart' ,{
+                    fetch('https://shielded-mountain-60408.herokuapp.com/user/deleteCart' ,{
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",

@@ -29,7 +29,7 @@ class CustomerPro extends Component{
 //display product details
     componentDidMount(){
         const token= localStorage.getItem('token');
-        fetch('http://localhost:5000/user/products/' + this.props.match.params.id ,{
+        fetch('https://shielded-mountain-60408.herokuapp.com/user/products/' + this.props.match.params.id ,{
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -56,7 +56,7 @@ class CustomerPro extends Component{
 //display category name
     //  componentDidMount(){
     //     const token= localStorage.getItem('token');
-    //     fetch('http://localhost:5000/admin/catagory'  ,{
+    //     fetch('https://shielded-mountain-60408.herokuapp.com/admin/catagory'  ,{
     //         method: "GET",
     //         headers: {
     //             "Content-Type": "application/json",

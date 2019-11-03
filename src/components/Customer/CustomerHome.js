@@ -21,7 +21,7 @@ export default class CustomerHome extends Component {
 
     componentDidMount(){
         const token= localStorage.getItem('token');
-        fetch('http://localhost:5000/admin/catagory'  ,{
+        fetch('https://shielded-mountain-60408.herokuapp.com/admin/catagory'  ,{
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

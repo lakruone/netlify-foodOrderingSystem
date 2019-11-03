@@ -72,7 +72,7 @@ class AddProject extends Component{
         console.log(user);
 
         const token= localStorage.getItem('token');
-        fetch('http://localhost:5000/user/addCart/'+this.props.match.params.id,{
+        fetch('https://shielded-mountain-60408.herokuapp.com/user/addCart/'+this.props.match.params.id,{
             method:"POST",
             headers: {
               "Content-Type": "application/json",
