@@ -58,7 +58,8 @@ export default class Editprofile extends Component {
         }
         console.log(user);
 
-        fetch('https://git.heroku.com/shielded-mountain-60408.git/admin/editProduct/'+ this.props.match.params.id,{
+
+        fetch('https://shielded-mountain-60408.herokuapp.com/admin/editProduct/'+ this.props.match.params.id,{
             method:"PUT",
             headers: {
               "Content-Type": "application/json",
@@ -85,7 +86,7 @@ export default class Editprofile extends Component {
 
 
     componentDidMount(){
-        fetch('https://git.heroku.com/shielded-mountain-60408.git/admin/editProduct/' + this.props.match.params.id ,{
+        fetch('https://shielded-mountain-60408.herokuapp.com/admin/editProduct/' + this.props.match.params.id ,{
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

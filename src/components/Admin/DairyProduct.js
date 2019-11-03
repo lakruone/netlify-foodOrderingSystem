@@ -20,7 +20,7 @@ class NewProject extends Component{
 
     componentDidMount(){
         const token= localStorage.getItem('token');
-        fetch('https://git.heroku.com/shielded-mountain-60408.git/admin/products/' + this.props.match.params.id  ,{
+        fetch('https://shielded-mountain-60408.herokuapp.com/admin/products/' + this.props.match.params.id  ,{
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -56,7 +56,7 @@ class NewProject extends Component{
 
             }
                     const token= localStorage.getItem('token');
-                    fetch('https://git.heroku.com/shielded-mountain-60408.git/admin/deleteProduct',{
+                    fetch('https://shielded-mountain-60408.herokuapp.com/admin/deleteProduct',{
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",

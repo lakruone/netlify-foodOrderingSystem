@@ -107,7 +107,7 @@ handleUpload = () => {
         const token= localStorage.getItem('token');
         //console.log(token);
         //company register - backend admin.js
-        fetch('https://git.heroku.com/shielded-mountain-60408.git/admin/addProduct/'  + this.props.match.params.id, {
+        fetch('https://shielded-mountain-60408.herokuapp.com/admin/addProduct/'  + this.props.match.params.id, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

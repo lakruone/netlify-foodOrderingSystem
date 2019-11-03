@@ -65,7 +65,7 @@ export default class Editprofile extends Component {
         console.log(user);
 
         const token= localStorage.getItem('token');
-        fetch('https://git.heroku.com/shielded-mountain-60408.git/admin/profile',{
+        fetch('https://shielded-mountain-60408.herokuapp.com/admin/profile',{
             method:"PUT",
             headers: {
               "Content-Type": "application/json",
@@ -91,7 +91,7 @@ export default class Editprofile extends Component {
      //company dropdown list
     componentDidMount(){
         const token= localStorage.getItem('token');
-        fetch('https://git.heroku.com/shielded-mountain-60408.git/admin/profile'  ,{
+        fetch('https://shielded-mountain-60408.herokuapp.com/admin/profile'  ,{
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

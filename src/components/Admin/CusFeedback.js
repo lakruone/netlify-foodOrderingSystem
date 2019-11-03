@@ -23,7 +23,7 @@ export default class Yourprofile extends Component {
      //company dropdown list
     componentDidMount(){
         const token= localStorage.getItem('token');
-        fetch('https://git.heroku.com/shielded-mountain-60408.git/admin/feedback/'  + this.props.match.params.id ,{
+        fetch('https://shielded-mountain-60408.herokuapp.com/admin/feedback/'  + this.props.match.params.id ,{
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
